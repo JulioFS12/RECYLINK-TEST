@@ -1,3 +1,8 @@
+// 2. Longest string
+// Write a function called "rokket" which receives an array with several strings. It must output the longest (character length) string in the array.
+// Example:
+// const list = ['best', 'company', 'ever']
+// console.log(rokket(list)) // this outputs 'company'
 
 export const rokket = (array) => {
     let higherString = 0;
